@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Label");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Button");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Checkbox");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Root", new System.Windows.Forms.TreeNode[] {
-            treeNode5,
-            treeNode6,
-            treeNode7});
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Label");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Button");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Checkbox");
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Root", new System.Windows.Forms.TreeNode[] {
+            treeNode13,
+            treeNode14,
+            treeNode15});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(s));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -110,7 +110,7 @@
             "Lakewood"});
             this.lstCity.Location = new System.Drawing.Point(34, 183);
             this.lstCity.Name = "lstCity";
-            this.lstCity.Size = new System.Drawing.Size(120, 69);
+            this.lstCity.Size = new System.Drawing.Size(120, 56);
             this.lstCity.TabIndex = 4;
             this.lstCity.SelectedIndexChanged += new System.EventHandler(this.LstCity_SelectedIndexChanged);
             // 
@@ -170,16 +170,16 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(34, 262);
             this.treeView1.Name = "treeView1";
-            treeNode5.Name = "Node1";
-            treeNode5.Text = "Label";
-            treeNode6.Name = "Node2";
-            treeNode6.Text = "Button";
-            treeNode7.Name = "Node3";
-            treeNode7.Text = "Checkbox";
-            treeNode8.Name = "Node0";
-            treeNode8.Text = "Root";
+            treeNode13.Name = "Node1";
+            treeNode13.Text = "Label";
+            treeNode14.Name = "Node2";
+            treeNode14.Text = "Button";
+            treeNode15.Name = "Node3";
+            treeNode15.Text = "Checkbox";
+            treeNode16.Name = "Node0";
+            treeNode16.Text = "Root";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode8});
+            treeNode16});
             this.treeView1.Size = new System.Drawing.Size(121, 97);
             this.treeView1.TabIndex = 8;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.TreeView1_AfterSelect);
@@ -207,7 +207,7 @@
             this.Controls.Add(this.lstCity);
             this.Controls.Add(this.groupBox1);
             this.Name = "s";
-            this.Text = "Form1";
+            this.Text = "Joe\'s First Forms App!";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

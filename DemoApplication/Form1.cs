@@ -36,5 +36,10 @@ namespace DemoApplication
 
             MessageBox.Show(name + address);
         }
+
+        private void TreeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
+        }
     }
 }

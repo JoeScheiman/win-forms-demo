@@ -101,6 +101,7 @@
             this.lstCity.Name = "lstCity";
             this.lstCity.Size = new System.Drawing.Size(120, 69);
             this.lstCity.TabIndex = 4;
+            this.lstCity.SelectedIndexChanged += new System.EventHandler(this.LstCity_SelectedIndexChanged);
             // 
             // rdMale
             // 
@@ -152,6 +153,7 @@
             this.btnSubmit.TabIndex = 7;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.BtnSubmit_Click);
             // 
             // s
             // 

@@ -21,5 +21,20 @@ namespace DemoApplication
         {
 
         }
+
+        private void LstCity_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string text = lstCity.GetItemText(lstCity.SelectedItem);
+            MessageBox.Show("You've selected: " + text);
+        }
+
+        private void BtnSubmit_Click(object sender, EventArgs e)
+        {
+            string name = txtName.Text;
+
+            string address = txtAddress.Text;
+
+            MessageBox.Show(name + address);
+        }
     }
 }
